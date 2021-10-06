@@ -4,6 +4,23 @@
   <artifactId>Loja_jsp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+<dependencies>
+<!-- mysql connector java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.23</version>
+</dependency>
+<!-- lombok -->
+<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.20</version>
+		<scope>provided</scope>
+	</dependency>
+
+</dependencies>
+  
   <build>
     <plugins>
       <plugin>
