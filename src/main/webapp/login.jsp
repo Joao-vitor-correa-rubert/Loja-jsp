@@ -12,7 +12,8 @@
 		<div class="card w-50 mx-auto my-5">
 		  <div class="card-header text-center">Usuário login</div>
 			<div class="card-body">
-		<form action="method=post">
+			
+		<form action="User-login" method="post">
 		
 		<div class="form-group">
 		<label>E-mail</label>

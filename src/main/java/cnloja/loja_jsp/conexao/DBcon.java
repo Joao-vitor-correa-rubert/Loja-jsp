@@ -1,11 +1,12 @@
-package cnloja.conexao;
+package cnloja.loja_jsp.conexao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBcon {
-	private static Connection connection= null;
+	
+private static Connection connection= null;
 	
 	public static Connection getConnection() throws ClassNotFoundException,SQLException {
 		if(connection==null) {
@@ -18,3 +19,4 @@ public class DBcon {
 	}
 
 }
+
